@@ -1,0 +1,502 @@
+    body{
+        width:100%;
+        color:gray;
+        font-family: serif;
+		margin:0;
+    }		
+    header{
+        background-color:black;
+        color:lightgray;
+		position: -webkit-sticky;
+        position: sticky;
+		padding:3%;
+	}	    
+    h1{
+        padding-top:2%;
+		padding-left:5%;
+        margin:10px;
+        font-size:40pt;
+    }  
+    i{
+        margin:30px;
+		font-size: 20px;
+		padding-left:10%;
+    }    
+    ul{
+	   text-align:right;
+        padding-right:3%;
+        padding-bottom:1%;
+    }       
+    li{
+       display:inline;
+	   padding:15px;
+	   margin:0;
+	   transition:0.8s;
+	   text-decoration:none;
+     } 
+       a{
+        text-decoration:none;
+        color:lightgray;	
+    }    
+      a:hover{
+        text-decoration:none;
+        color:white;
+    }       
+    section .red{
+        border-top:2px solid indianred; 
+         width:45%;
+        margin-left:5%;
+    } 
+
+
+
+
+
+section .beige{
+	    position:absolute;
+		top:763px;
+		left:789px;
+		border-top:2px solid indianred; 
+        width:45%;
+     
+    } 
+
+
+
+
+
+
+
+
+
+	
+    aside{
+        float:left;
+        border-top:2px solid indianred; 
+        width:90%;
+        margin-left:5%;
+    }   
+  nav{
+	   background-color: #333;
+	  text-align: center;
+      padding:1%;
+	  display: block;
+  } 
+  nav li:hover{
+	  opacity:1;
+	  background-color: black;
+	  overflow: hidden;
+	  text-decoration:none;
+  } 
+ .menu{
+	 padding-bottom:0px;
+	
+ }   
+  .menu a{
+	  font-size:14pt;
+  } 
+  .red{
+    float:left;
+	width:49%;
+	height:50%;
+	float:left;
+	padding-right:1px;
+	border-right:1px solid black;
+	}   
+    .beige{
+        float:right;
+		width:49%;
+		height:40%;
+		float:left;
+		padding-left:10px;
+    }
+    .blue{
+        padding-left:10px;
+		width:98.5%;
+		height:200px;
+		float:left;
+		text-align:center;
+    }
+  
+  
+  .dropdown-list {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-menu {
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-menu a {
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+	background-color: #ddd;
+	transition:0.8s;
+	}
+
+.dropdown-list:hover .dropdown-menu {
+	display: block;
+	transition:0.7s;
+	}
+
+   
+  
+
+section{
+  text-align:center;
+}
+.footer #button{
+	width:35px;
+	height:35px;
+	border: #727172 12px solid;
+	border-radius:35px;
+	margin:0 auto;
+	position:relative;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.footer #button:hover{
+	width:40px;
+	height:40px;
+	border: #3A3A3A 12px solid;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	position:relative;
+}
+.footer {
+	bottom:0;
+	left:0;
+	position:fixed;
+    width: 100%;
+    height: 2em;
+    overflow:hidden;
+    margin:0 auto;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	z-index:999;
+}
+.footer:hover {
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	height: 20em;
+}
+.container{
+	width:100%;
+	height:100%;
+	font-family: Source Sans Pro;
+	background: #282828;
+	background: linear-gradient(-45deg, #F0F2F0, #000c4c, #e8cbc0, #636fa4);
+	background-size: 500% 500%;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position:0% 50%
+	}
+}
+
+
+.container h1 {
+	
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 0;
+	
+}
+
+.container #cont {
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	width: 100%;
+	transform: translate(-53%, -10%);
+	
+}
+
+.container #cont li {
+	list-style:none;
+	margin: 10px 30px;
+	display: inline-block;
+	font-size: 30px;
+	padding: 20px 20px;
+	color: #fff;
+	transition: 0.5s;
+}
+
+
+#cont li:hover{
+	color: #292929;
+	transition: 0.5s;
+}
+
+
+
+
+.gallery {
+  border: 1px solid #ccc;
+  position:relative;
+
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+ 
+}
+
+.gallery:hover .overlay {
+  height: 15%;
+}
+
+
+.overlay .desc {
+	overflow:hidden;
+    padding: 15px;
+	font-size: 20px;
+	color: black;
+    text-align: center;
+  
+}
+.gallery .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #edd0de;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.team-section
+{
+		text-align: center;
+}
+
+.inner-width
+{
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px;
+	color: #333;
+	overflow: hidden;
+}
+
+.team-section h1
+{
+	font-size: 20px;
+	text-transform: uppercase;
+	display: inline-block;
+	border-bottom: 4px solid;
+	padding-bottom: 10px;
+}
+
+.pe
+{
+	float: left;
+	width: calc(100% / 2);
+	overflow: hidden;
+	padding: 50px 0;
+	transition: 0.4s;
+}
+
+.pe:hover
+{
+	background: #dfe4ea;
+}
+
+.pe img
+{
+	width:250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.p-name
+{
+	margin: 5px;
+	text-transform: uppercase;
+}
+
+.p-des
+{
+	font-style: italic;
+	color: #3498db;
+}
+
+
+.p-sm a
+{
+	margin: auto;
+	font-size:30px;
+	display: inline-block;
+	width: 90px;
+	height: 20px;
+	transition: 0.5s;
+}
+
+.p-sm a:hover
+{
+	transform: scale(1.2);
+}
+
+.p-sm a i
+{
+	color: #333;
+	line-height: 30px;
+}
+
+@media screen and (max-width: 960px) {
+	.pe{
+		width: 45%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.pe{
+		width: 50%;
+	}
+}
+@media screen and (max-width: 600px) {
+	.pe{
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+/*Designed by VINITA SHARMA*/
+
+.container {
+	text-align: center;
+	font-size: 30px;
+	font-family: Source Sans Pro;
+	color:#282828;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
