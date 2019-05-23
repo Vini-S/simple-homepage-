@@ -330,48 +330,6 @@ section{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .team-section
 {
 		text-align: center;
@@ -467,12 +425,6 @@ section{
 }
 
 
-
-
-
-
-
-
 /*Designed by VINITA SHARMA*/
 
 .container {
@@ -483,6 +435,26 @@ section{
 }
 
 
+
+
+/*logo blinker*/
+
+
+.blinker { 
+  animation-name: blinker;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1,0,0,1);
+  animation-duration: 1s; 
+  display: inline-block;
+  width: 5px;
+  height: 35px;
+  margin-left: 10px;
+  background: yellow;
+}
+
+@keyframes blinker { 
+  from { opacity: 1.0; } to { opacity: 0.0; }
+}
 
 
 
